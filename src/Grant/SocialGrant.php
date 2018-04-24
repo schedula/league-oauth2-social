@@ -1,6 +1,14 @@
 <?php
-
-namespace Anand\Grant;
+/**
+ * Social grant.
+ *
+ * @author      Anand Siddharth <anandsiddharth21@gmail.com>
+ * @copyright   Copyright (c) Anand Siddharth
+ * @license     http://mit-license.org/
+ *
+ * @link        https://github.com/anandsiddharth/league-oauth2-social
+ */
+namespace Anand\League\OAuth2\Server\Grant;
 
 use League\OAuth2\Server\Grant\AbstractGrant;
 use League\OAuth2\Server\ResponseTypes\ResponseTypeInterface;
@@ -67,18 +75,18 @@ class SocialGrant extends AbstractGrant {
 	protected function validateUser(ServerRequestInterface $request, ClientEntityInterface $client)
 	{
 		$accessToken = $this->getRequestParameter('accessToken', $request);
-		if (is_null($username)) {
+		if (is_null($accessToken)) {
 		  throw OAuthServerException::invalidRequest('accessToken');
 		}
 
 		$provider = $this->getRequestParameter('provider', $request);
-		if (is_null($password)) {
+		if (is_null($provider)) {
 		  throw OAuthServerException::invalidRequest('provider');
 		}
 
-		$user = $this->userRepository->getUserEntityByUserProvider(
-		  $username,
-		  $password,
+		$user = $this->userRepository->getUserEntityBySocialProvider(
+		  $accessToken,
+		  $provider,
 		  $this->getIdentifier(),
 		  $client
 		);
