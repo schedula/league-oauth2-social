@@ -85,7 +85,7 @@ class SocialGrant extends AbstractGrant {
 		  throw OAuthServerException::invalidRequest('provider');
 		}
 
-		$user = $this->userRepository->getUserEntityBySocialProvider(
+		$user = $this->userRepository->getUserFromSocialProvider(
 		  $accessToken,
 		  $provider,
 		  $this->getIdentifier(),
