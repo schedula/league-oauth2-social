@@ -18,6 +18,7 @@ use League\OAuth2\Server\Entities\ClientEntityInterface;
 use League\OAuth2\Server\Exception\OAuthServerException;
 use League\OAuth2\Server\Repositories\RefreshTokenRepositoryInterface;
 use League\OAuth2\Server\Repositories\UserRepositoryInterface;
+use Anand\League\OAuth2\Server\Repositories\UserSocialRepositoryInterface;
 /**
  * Social grant class.
  */
@@ -28,7 +29,7 @@ class SocialGrant extends AbstractGrant {
 	* @param RefreshTokenRepositoryInterface $refreshTokenRepository
 	*/
 	public function __construct(
-		UserRepositoryInterface $userRepository,
+		UserSocialRepositoryInterface $userRepository,
 		RefreshTokenRepositoryInterface $refreshTokenRepository
 	) {
 		$this->setUserRepository($userRepository);
