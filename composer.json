@@ -1,0 +1,13 @@
+{
+    "name": "anandsiddharth/league-oauth2-social",
+    "description": "The missing social authentication for thephpleague/oauth2-server",
+    "authors": [
+        {
+            "name": "Anand Siddharth",
+            "email": "anandsiddharth21@gmail.com"
+        }
+    ],
+    "require": {
+		"league/oauth2-server": "^6.0"
+    }
+}
