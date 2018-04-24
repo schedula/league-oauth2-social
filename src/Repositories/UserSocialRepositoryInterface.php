@@ -27,7 +27,7 @@ interface UserSocialRepositoryInterface extends UserRepositoryInterface {
      * @return UserEntityInterface
      */
 	
-	public function getUserFromSocialProviderIdentifier(
+	public function getUserFromSocialProvider(
 		$accessToken,
         $provider,
         $grantType,
