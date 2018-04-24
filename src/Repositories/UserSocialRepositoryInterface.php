@@ -11,9 +11,9 @@
 namespace Anand\League\OAuth2\Server\Repositories;
 
 use League\OAuth2\Server\Entities\UserEntityInterface;
+use League\OAuth2\Server\Repositories\UserRepositoryInterface;
 
-
-interface UserSocialRepositoryInterface {
+interface UserSocialRepositoryInterface extends UserRepositoryInterface {
 
 	/**
      * Get a user entity.
