@@ -12,6 +12,7 @@ namespace Anand\League\OAuth2\Server\Repositories;
 
 use League\OAuth2\Server\Entities\UserEntityInterface;
 use League\OAuth2\Server\Repositories\UserRepositoryInterface;
+use League\OAuth2\Server\Entities\ClientEntityInterface;
 
 interface UserSocialRepositoryInterface extends UserRepositoryInterface {
 
