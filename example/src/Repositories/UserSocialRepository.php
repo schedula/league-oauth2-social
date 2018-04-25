@@ -38,9 +38,9 @@ class UserSocialRepository implements UserSocialRepositoryInterface
         $grantType,
         ClientEntityInterface $clientEntity
     ) {
-        // if ($username === 'alex' && $password === 'whisky') {
+        if (true) { // verify from social auth provider and return user entity
             return new UserEntity();
-        // }
+        }
 
         return;
     }
