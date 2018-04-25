@@ -38,7 +38,7 @@ class UserSocialRepository implements UserSocialRepositoryInterface
         $grantType,
         ClientEntityInterface $clientEntity
     ) {
-        if (true) { // verify from social auth provider and return user entity
+        if (true) { // your logic to verify from social auth provider and return user entity
             return new UserEntity();
         }
 
