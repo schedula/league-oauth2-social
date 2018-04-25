@@ -26,7 +26,7 @@ $app = new App([
             'lxZFUEsBCJ2Yb14IF2ygAHI5N4+ZAUXXaSeeJm6+twsUmIen'      // encryption key
         );
         $grant = new SocialGrant(
-            new UserSocialRepository(),           // instance of UserRepositoryInterface
+            new UserSocialRepository(),           // instance of UserSocialRepositoryInterface
             new RefreshTokenRepository()    // instance of RefreshTokenRepositoryInterface
         );
         $grant->setRefreshTokenTTL(new \DateInterval('P1M')); // refresh tokens will expire after 1 month
