@@ -1,4 +1,4 @@
-# The missing social authentication for [Php Oauth2 Server](https://github.com/thephpleague/oauth2-server)
+# The missing social authentication aka. social grant for [Php Oauth2 Server](https://github.com/thephpleague/oauth2-server)
 
 Description : This package extends [thephpleague/oauth2-server](https://github.com/thephpleague/oauth2-server) for authorization of user via their social account via api. All you need to do is enable `SocialGrant` on your [`AuhtorizationServer`](https://github.com/thephpleague/oauth2-server/blob/master/src/AuthorizationServer.php) class.
 
