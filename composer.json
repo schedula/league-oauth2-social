@@ -1,6 +1,8 @@
 {
     "name": "anandsiddharth/league-oauth2-social",
     "description": "The missing social authentication for thephpleague/oauth2-server",
+    "license": "MIT",
+    "keywords": ["oauth2 social login", "league oauth2 social login integration"],
     "authors": [
         {
             "name": "Anand Siddharth",
