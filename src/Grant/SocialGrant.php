@@ -6,9 +6,9 @@
  * @copyright   Copyright (c) Anand Siddharth
  * @license     http://mit-license.org/
  *
- * @link        https://github.com/anandsiddharth/league-oauth2-social
+ * @link        https://github.com/schedula/league-oauth2-social
  */
-namespace Anand\League\OAuth2\Server\Grant;
+namespace Schedula\League\OAuth2\Server\Grant;
 
 use League\OAuth2\Server\Grant\AbstractGrant;
 use League\OAuth2\Server\ResponseTypes\ResponseTypeInterface;
@@ -19,7 +19,7 @@ use League\OAuth2\Server\Exception\OAuthServerException;
 use League\OAuth2\Server\Repositories\RefreshTokenRepositoryInterface;
 use League\OAuth2\Server\Repositories\UserRepositoryInterface;
 use League\OAuth2\Server\RequestEvent;
-use Anand\League\OAuth2\Server\Repositories\UserSocialRepositoryInterface;
+use Schedula\League\OAuth2\Server\Repositories\UserSocialRepositoryInterface;
 /**
  * Social grant class.
  */

@@ -10,7 +10,7 @@ use OAuth2ServerExamples\Repositories\UserRepository;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Slim\App;
-use Anand\League\OAuth2\Server\Grant\SocialGrant;
+use Schedula\League\OAuth2\Server\Grant\SocialGrant;
 use OAuth2ServerExamples\Repositories\UserSocialRepository;
 
 include __DIR__ . '/../vendor/autoload.php';

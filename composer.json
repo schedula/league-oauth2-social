@@ -1,5 +1,5 @@
 {
-    "name": "anandsiddharth/league-oauth2-social",
+    "name": "schedula/league-oauth2-social",
     "description": "The missing social authentication for thephpleague/oauth2-server",
     "license": "MIT",
     "keywords": ["oauth2 social login", "league oauth2 social login integration"],
@@ -14,7 +14,7 @@
     },
     "autoload" : {
         "psr-4" : {
-            "Anand\\League\\OAuth2\\Server\\": "src/"
+            "Schedula\\League\\OAuth2\\Server\\": "src/"
         }
     }
 }

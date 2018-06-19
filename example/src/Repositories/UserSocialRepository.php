@@ -4,7 +4,7 @@
  * @copyright   Copyright (c) Anand Siddharth
  * @license     http://mit-license.org/
  *
- * @link        https://github.com/anandsiddharth/league-oauth2-social
+ * @link        https://github.com/schedula/league-oauth2-social
  */
 
 namespace OAuth2ServerExamples\Repositories;
@@ -12,7 +12,7 @@ namespace OAuth2ServerExamples\Repositories;
 use League\OAuth2\Server\Entities\ClientEntityInterface;
 use League\OAuth2\Server\Repositories\UserRepositoryInterface;
 use OAuth2ServerExamples\Entities\UserEntity;
-use Anand\League\OAuth2\Server\Repositories\UserSocialRepositoryInterface;
+use Schedula\League\OAuth2\Server\Repositories\UserSocialRepositoryInterface;
 
 class UserSocialRepository implements UserSocialRepositoryInterface
 {

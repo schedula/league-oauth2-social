@@ -6,9 +6,9 @@
  * @copyright   Copyright (c) Anand Siddharth
  * @license     http://mit-license.org/
  *
- * @link        https://github.com/anandsiddharth/league-oauth2-social
+ * @link        https://github.com/schedula/league-oauth2-social
  */
-namespace Anand\League\OAuth2\Server\Repositories;
+namespace Schedula\League\OAuth2\Server\Repositories;
 
 use League\OAuth2\Server\Entities\UserEntityInterface;
 use League\OAuth2\Server\Repositories\UserRepositoryInterface;
